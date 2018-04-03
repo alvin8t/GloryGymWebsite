@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events | Glory Gymnastics Center</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css?v=0.0.1">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-normal bg-light">
+        <a class="navbar-brand"><img src="assets/brand.png" width="160" height="30" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link block-s-cursor" id="home" href="/">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link block-s-cursor" id="events" href="/events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link block-s-cursor" id="classes" href="/classes.html">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link block-s-cursor" id="media" href="/media.html">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link block-s-cursor" id="staff" href="/staff.html">Staff</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link block-s-cursor" id="about-us" href="/about-us.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="section">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h1>About Us</h1>
+                    <p style="font-size: 1.25em;">Welcome to Glory Gymnastics at glory we don't only aim to teach kids skills to progress through levels we also teach them life skills. We have a multitude of classes such as: Gymnastics, Tumbling, Dance, Jiu-Jitsu, Hip-Hop, Cheer, and Ninja Zone. We started up with just gymnastics and have continued to grow over the years adding more classes as we go. We hope that you join our family and learn and grow as we do!</p>
+                </div>
+                <div class="col-sm-3 side-nav">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGloryGymnastics%2F&tabs=timeline&width=340&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+                    <a href="https://www.instagram.com/glorygymnasticscenter" target="_blank" class="btn btn-danger btn-block">VISIT INSTAGRAM</a>
+
+                    <a href="https://goo.gl/maps/c4N2Mv1KVAU2" target="_blank" class="btn btn-success btn-block">DIRECTIONS</a>
+
+                    <a href="#contact" class="btn btn-primary btn-block">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row ignore-row-space">
+                <div class="col-sm-10">
+                    <h1 class="h3" id="contact">Contact</h1>
+                    <h5>Company Name</h5>
+                    <p>Glory Gymnastics</p>
+                    <h5>Address</h5>
+                    <p>127 Bowling Dr Jackson, TN 38305
+                        <h5>Phone</h5>
+                        <p>(731)-424-5437</p>
+                    </div>
+                    <div class="col-sm-1 center" id="usaWH">
+                        <a href="http://usagym.org" target="_blank"><img src="assets/usagym.png" alt="USA Gym" id="usaGymLogo"></a>
+                    </div>
+                </div>
+                <div class="row ignore-row-space">
+                    <div class="col-sm-12">
+                        <span class="text-muted">&copy; Glory Gymnastics <script>document.write(new Date().getFullYear())</script></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            $('.carousel').carousel()
+        })
+
+        $('#usaGymLogo').attr({'width': $('#usaWH').width(), 'height': $('#usaWH').width()})
+
+
+        //      ___           ___       ___           ___                    ___
+        //     /\  \         /\__\     /\  \         |\__\                  /\  \
+        //    /::\  \       /:/  /    /::\  \        |:|  |                 \:\  \
+        //   /:/\:\  \     /:/  /    /:/\:\  \       |:|  |                  \:\  \
+        //  /::\~\:\  \   /:/  /    /::\~\:\  \      |:|__|__                /::\  \
+        // /:/\:\ \:\__\ /:/__/    /:/\:\ \:\__\ ____/::::\__\              /:/\:\__\
+        // \/__\:\/:/  / \:\  \    \:\~\:\ \/__/ \::::/~~/~                /:/  \/__/
+        //      \::/  /   \:\  \    \:\ \:\__\    ~~|:|~~|                /:/  /
+        //      /:/  /     \:\  \    \:\ \/__/      |:|  |                \/__/
+        //     /:/  /       \:\__\    \:\__\        |:|  |
+        //     \/__/         \/__/     \/__/         \|__|
+
+
+        </script>
+    </body>
+    </html>
